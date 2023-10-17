@@ -1,4 +1,4 @@
-# cosmicplace-working-title
+# cosmicplace
 an extremely large, land-value-taxed collaborative canvas
 
 currently very very early alpha
