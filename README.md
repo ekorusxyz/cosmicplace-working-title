@@ -59,6 +59,7 @@ and also, personally, my attention is too divided from work and generally recove
 
 I hope you all enjoy this! I haven't put it on a testnet or mainnet yet, since I'm not sure which would be best, so I'd like some input on that, and also input on the code generally. Come chat with me in the Discord: https://discord.gg/SHKHfHsVpd
 
+also help me come up with better names, naming things is always the most difficult for me
 
 
 A bit of a footnote on details of some other design decisions:
