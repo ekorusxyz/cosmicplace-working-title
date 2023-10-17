@@ -44,6 +44,8 @@ For reference, the cooldown between placing pixels was between 5 and 20 minutes,
 Yes, Reddit is big, but that's still very impressive. 1/100th of that is still a lot of activity.
 It's fun to wonder about what big revenue number this could create, but really, I have no idea. Thankfully, we can find out very soon!
 
+The way I've implemented the land taxes on this is having auctions to have control over a particular pixel, with the auctions having a set interval globally.
+
 
 I currently have no clue what to do for governance with respect to how to spend the revenue, so feedback on that is very appreciated. 
 One thing that I will note is that there's another topic from Georgism I find quite interesting called the "Henry George Theorem": Spending revenue collected via land value taxes on public goods increases land values enough that it pays for itself (so long as it's spent nearby, evidently).
