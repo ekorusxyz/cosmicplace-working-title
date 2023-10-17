@@ -66,8 +66,8 @@ contract cosmicplace is Ownable {
     uint public contractBal;
 
     constructor() Ownable(msg.sender){
-        roundInterval = 10 minutes;
-        offsetTime = 5 minutes;
+        roundInterval = 2 hours;
+        offsetTime = 0;
         minBid = 1 gwei;
         privateFeePerGwei = 1 gwei - (1 gwei / 2);
     }
