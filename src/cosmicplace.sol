@@ -28,8 +28,8 @@ contract cosmicplace is Ownable {
 	struct pixel{ 
         //yes, i know i need to pack the data better
 
-		bytes16 data; //intention for this is that first 12 bytes are pixel data, on a 2x2 square, and the rest is text data
-        /*first 12 bytes map to 2x2 square of pixels like this: 
+		bytes12 data; //intention for this is that these bytes are pixel data, on a 2x2 square
+        /*bytes map to 2x2 square of pixels like this: 
         ^ +y
         |  (next pixel +1 y)
         +---------+---------+
@@ -198,7 +198,7 @@ contract cosmicplace is Ownable {
 
     //pixel editing and reading
 
-    function setPixel(address _world, int128 _x, int128 _y, bytes16 _data) public returns (bool){
+    function setPixel(address _world, int128 _x, int128 _y, bytes12 _data) public returns (bool){
         coords xy = xymath.ints2coords(_x, _y);
         checkRoundXY(_world, xy);
         address _o = worlds[_world].pixels[xy].owner;
